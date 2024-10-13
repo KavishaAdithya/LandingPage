@@ -68,9 +68,10 @@ h1{
     flex-direction: column;
 }
 
-img{
+.Section1 img{
     transform: scale(0.5);
 }
+    
 .Text1{
     width: 550px;
     height: max-content;
@@ -97,5 +98,124 @@ img{
     transform: scale(1.1);
 }
 
+/* Section 2  */
+.Section2{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction:column;
+    align-items: center;
+    
+
+}
+
+.Section2 h2{
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    
+}
+
+.Section2 .Context2{
+
+transform: scale(0.5);
+display: flex;
+flex-direction: row;
 
 
+}
+
+.Context2 img{
+    border: 10px solid #3882f6;
+    border-radius: 30px;
+   
+}
+
+
+figcaption{
+    text-align: center;
+    font-size: 40px;
+    color:grey;
+    margin-top: 10px;
+}
+
+
+/* Section 3*/
+
+.Section3 {
+    background-color: #e5e7eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 600px;
+
+}
+
+i{
+    font-size: 36px;
+    color: #1F2937;
+    width: 700px;
+
+}
+
+p{
+    width: 700px;
+text-align: end;
+font-size: 20px;
+color: #1F2937;
+font-weight: 900;
+
+}
+
+
+/* Section 4*/
+
+.Section4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+
+}
+
+.Section4 .Textbox{
+    display: flex;
+    background-color: #3882f6;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+    height: fit-content;
+    padding: 40px;
+    border-radius: 20px;
+
+}
+
+.Textfour h4{
+color: #F9FAF8;
+font-size: 25px;
+font-weight: 900;
+margin-bottom: 5px;
+margin-top: 25px;
+}
+
+.Textfour .text4{
+
+    color: #e5e7eb;
+    font-weight: 900;
+}
+
+.Textbox .button4{
+    width: 100px;
+    height: fit-content;
+    padding: 5px;
+    background-color: #3882f6;
+    border: 2px solid #F9FAF8;
+    border-radius: 10px;
+    color: #F9FAF8;
+    transition: 0.3s;
+} 
+
+.button4:hover{
+    background-color: #1F2937;
+}
